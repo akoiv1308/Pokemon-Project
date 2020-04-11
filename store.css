@@ -1,0 +1,78 @@
+.jumbotron{
+  background-image:url("https://www.narita-airport.jp/img/original/3786");
+  background-size: 600px 400px;
+  background-repeat: no-repeat;
+  background-position: center
+  
+}
+.container{
+  padding-bottom: 200px;
+}
+#pic1{
+  background-image: url("https://images.unsplash.com/photo-1542779283-429940ce8336?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  text-align: center;
+  padding: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img{
+  align-content: center
+}
+h2{
+ color:gray;
+}
+#pic2{
+  background-image: url("https://i.pinimg.com/originals/6d/d2/93/6dd293c73736d066bc53777c41619031.jpg");
+  text-align: center;
+  padding: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tools{
+  padding-left: 200px; 
+  height: 20% !important;
+  width:  20% !important;
+  
+}
+.p{
+  color:black;
+}
+
+.footer {
+  background: #152f4f;
+  color: white;
+
+  .links {
+    ul {
+      list-style-type: none;
+    }
+    li a {
+      color: white;
+      transition: color 0.2s;
+      &:hover {
+        text-decoration: none;
+        color: #4180cb;
+      }
+    }
+  }
+  .about-company {
+    i {
+      font-size: 25px;
+    }
+    a {
+      color: white;
+      transition: color 0.2s;
+      &:hover {
+        color: #4180cb;
+      }
+    }
+  }
+  .location {
+    i {
+      font-size: 18px;
+    }
+  }
+  .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
