@@ -46,8 +46,8 @@ a{
   background:#1B2030 url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1280px-International_Pok%C3%A9mon_logo.svg.png) 50% 0 no-repeat;
   background-size:100%;
   background-attachment:center;
-  animation: grow 30s  linear 10ms infinite;
-  transition:all 0.4s ease-in-out;
+  animation: grow 150s  linear 10ms infinite;
+  transition:all 0.1s ease-in-out;
   z-index:-2
 }
 .header a{

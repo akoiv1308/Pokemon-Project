@@ -42,4 +42,24 @@
   .copyright p {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
+
+	img.gif{
+  width: 120px;
+  height: auto;
+	}
+}
+.Gallery img{
+  width: 110%;
+  height: 110%;
+  padding-left: 1px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+
+}
+.Gallery h2{
+  padding-top: 60px;
+}
+.Gallery{
+  position: center;
+  text-align: center;
 }

@@ -3,30 +3,35 @@
   background-size: 600px 400px;
   background-repeat: no-repeat;
   background-position: center
-  
+
 }
 .container{
   padding-bottom: 200px;
 }
 #pic1{
-  background-image: url("https://images.unsplash.com/photo-1542779283-429940ce8336?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-image: url("https://cdn.vox-cdn.com/thumbor/qefrj2eJ3BMUeEhyh4uRV70Rfjk=/1400x1400/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/6839749/pokemon.0.png");
   text-align: center;
-  padding: 100px;
+  padding: 150px;
   background-repeat: no-repeat;
   background-position: center;
+  
+  
+  
 }
 .img{
-  align-content: center
+  
+  align-content: center;
 }
 h2{
- color:gray;
+ color:white;
 }
 #pic2{
   background-image: url("https://i.pinimg.com/originals/6d/d2/93/6dd293c73736d066bc53777c41619031.jpg");
   text-align: center;
-  padding: 100px;
+  padding: 150px;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .tools{
   padding-left: 200px; 
@@ -75,4 +80,20 @@ h2{
   .copyright p {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
+}
+.Gallery img{
+  width: 110%;
+  height: 110%;
+  padding-left: 1px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+
+}
+.Gallery h2{
+  padding-top: 100px;
+  color: black;
+}
+.Gallery{
+  position: center;
+  text-align: center;
 }

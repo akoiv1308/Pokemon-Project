@@ -1,22 +1,44 @@
 body {
-	background-color: #004d9b;
+	background-color: #e9fae3;
   color: white;
 }
 
 header{
      text-align: center;
-     font-size: 25px;
+     font-size: 32px;
      padding:20px;
+	 text-transform: uppercase;
+	 color: #1B2030;  
+	 font-weight: bolder;
 }
+.jumbotron{
+  width:100%;
+  height:575px;
+	background: #1B2030 url(https://media.moddb.com/images/downloads/1/56/55210/Logo.png);
+  background-size:100%;
+  background-attachment:center;
+  background-repeat:   no-repeat;
+	background-position: center;
+  
+}
+
 
 .pokemon{
      text-align: center;
      font-size: 20px;
-     color: #ffa;
+     color: #1B2030;
      font-weight: bold;
-     
+     text-transform: uppercase;
      padding: 20px 5px;
+	 transition: all .15s ease-in-out;
 }
+
+.pokemon:hover {
+	background-color: #1B2030;
+	color: #fff;
+}
+
+
 
 .footer {
   background: #152f4f;
@@ -55,4 +77,7 @@ header{
   .copyright p {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
+}
+.pokelist{
+  background-color: green;
 }
